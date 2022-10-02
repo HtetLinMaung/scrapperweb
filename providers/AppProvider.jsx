@@ -8,17 +8,11 @@ const initialState = {
   loading: false,
   items: [],
   headers: [],
-  url: "https://divinityoriginalsin2.wiki.fextralife.com/Potions",
+  url: "",
   columns: [
     {
-      name: "Final Product",
-      selector: "tbody td:nth-child(1)",
-      attr: "text",
-      fillna: "Unknown Product",
-    },
-    {
-      name: "Effect",
-      selector: "tbody td:nth-child(2)",
+      name: "",
+      selector: "",
       attr: "",
       fillna: "",
     },
