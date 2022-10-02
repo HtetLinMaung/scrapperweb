@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  scrapperweb:
+    image: htetlinmaung/scrapperweb
+    build: .
+    ports:
+      - "4004:3000"
+    
