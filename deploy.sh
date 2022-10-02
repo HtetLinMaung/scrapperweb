@@ -1,0 +1,1 @@
+git pull && sudo docker-compose down && sudo docker image rm -f htetlinmaung/scrapperweb && sudo docker-compose up -d
