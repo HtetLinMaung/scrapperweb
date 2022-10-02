@@ -12,8 +12,9 @@ export default function BottomBar() {
       columns: state.columns,
       cache: true,
     });
+
     let headers = [];
-    if (data.data.length) {
+    if (data.data && data.data.length) {
       headers = Object.keys(data.data[0]).map((key) => ({ key, title: key }));
     }
     console.log(headers);
